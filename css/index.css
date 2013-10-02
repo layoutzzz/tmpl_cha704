@@ -1,0 +1,10 @@
+@import url(../../base/css/index.css);
+
+a.vacant 
+{
+	color:#89acac;
+}
+#indexPhotoBorder 
+{
+	border:1px solid #4c6060;
+}

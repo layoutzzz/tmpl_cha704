@@ -1,0 +1,122 @@
+@import url(../../base/css/general.css);
+
+a img, img
+{
+	border:none;
+}
+
+div.main
+{
+	position:relative;
+	margin:0 auto;
+	background-color:#b1dee0;
+	padding:0 5px;
+	padding-bottom:30px;
+}
+div.sys_main_logo
+{
+	background-color:#b1dee0;
+}
+div.content
+{
+	margin-top:10px;
+}
+div.top_settings_block
+{
+	background-color:#fae3d5;
+	color:#e15225;
+}
+
+div.search_filled_block{
+	background-color:#FCFFFF;
+}
+
+/* Extra top menu */
+div.extra_top_menu table.fixed_menu 
+{
+	border: 1px solid #4c6060;
+}
+div.extra_top_menu table.fixed_menu div.popup_html div.devider img
+{
+	width:1px;
+}
+div.extra_top_menu table.fixed_menu td
+{
+	
+}
+div.extra_top_menu table.fixed_menu div.popup_html  div.extra_data
+{
+	background-color:#79bd8f;
+}
+div.extra_top_menu table.fixed_menu div.popup_html div.menu_item_active 
+{
+	background-color:#beeb9f;
+	border-right:1px solid #00a388;
+	border-left:1px solid #00a388;
+	border-bottom:1px solid #00a388;
+}
+div.extra_top_menu table.fixed_menu div.popup_html table.popup{
+	border-left:1px solid #00a388;
+	border-right:1px solid #00a388;
+}
+div.extra_top_menu table.fixed_menu div.popup_html  div.top_cover
+{
+	border-top:1px solid #00a388;
+}
+div.extra_top_menu table.fixed_menu div.popup_html  div.bottom_cover
+{
+	border-bottom:1px solid #00a388;
+}
+div.extra_top_menu table.fixed_menu div.popup_html div.content
+{
+	color:#ff6138;
+}
+div.extra_top_menu table.fixed_menu div.bottom_indent
+{
+}
+div.extra_top_menu table.fixed_menu div.popup_html div.control
+{
+	background-color:#beeb9f;
+	color:#ff6138;
+}
+div.extra_top_menu table.fixed_menu div.simple_messenger_chat_block div.messages_history div.sender_info
+{
+	background-color:#79bd8f;
+}
+div.extra_top_menu table.fixed_menu div.simple_messenger_chat_block
+{
+	border-left: 1px solid #4c6060;
+}
+div.extra_top_menu table.fixed_menu div.active_chat_block_blink_effect{
+	background-color:#ff6138;
+}
+
+div.extra_top_menu table.fixed_menu  div.active_chat_block
+{
+	background-color:#ffff9d;
+}
+
+div.extra_top_menu table.fixed_menu div.simple_messenger_chat_block div.history_bottom_position{
+	border-top: 1px solid #00a388;
+}
+div.extra_top_menu table.fixed_menu div.simple_messenger_chat_block div.messages_history{
+	border-left: 1px solid #00a388;
+	border-right: 1px solid #00a388;
+	border-bottom: 1px solid #00a388;
+} 
+
+/* End extra top menu */
+
+
+
+div.main_footer_block
+ {
+	border:none !important;
+	background:none !important;
+	background-color:#f0fdfd !important;	
+}
+.bottomCopyright
+{
+	border:1px solid #bdfdfd;
+	background-color:#f0fdfd;
+}

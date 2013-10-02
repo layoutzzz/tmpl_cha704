@@ -1,0 +1,10 @@
+<div class="MsgBox" id="__id__">
+	<div class="msgbox_border" >
+		<div class="msgbox_text">__msgText__</div>
+	</div>
+	<bx_if:timer>
+        <script type="text/javascript" language="javascript">
+            setTimeout("$('#__id__').bx_anim('hide', 'fade', 'slow', function(){$(this).remove();})", __time__);
+        </script>
+    </bx_if:timer>
+</div>

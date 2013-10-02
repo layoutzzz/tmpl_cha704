@@ -1,0 +1,20 @@
+@import url(../../base/css/categories.css);
+
+.quick_links_elink 
+{
+    background-color: #8dc8a9;
+    border: 1px solid #67a081;
+}
+.lcont_top
+{
+	background-color: #8dc8a9;
+}
+.quick_links_elink_lcont
+{
+	background-color:#e6fff1;
+	border-top:1px solid #cafce1;
+}
+div.js_control_section 
+{
+	background-image:url(../images/icons/toggle.png);
+}	

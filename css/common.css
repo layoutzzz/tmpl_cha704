@@ -1,0 +1,231 @@
+@import url(../../base/css/common.css);
+
+body
+{
+	margin:0;
+	padding:0;
+	color:#4c6060;
+	background:#FFF url('../images/body_bg.jpg') top left repeat-x;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+}
+
+.clear_both
+{
+	clear:both;
+	font-size:0px;
+	height:0px;
+}
+
+#StatusMessage{
+	height:40px;
+	overflow-y:auto;	
+}
+.notify_message{
+	background-image: url("../images/icons/notify_msg_left_bg.png");
+}
+
+/* * * * DesignBox * * * */
+.disignBoxFirst
+{
+	border:none;
+	background:none;
+}
+.boxFirstHeaderLeft
+{
+	background:url('../images/dbf_header_left.gif') top left no-repeat;
+	height:30px;
+}
+.boxFirstHeaderRight
+{
+	background:url('../images/dbf_header_right.gif') top right no-repeat;
+	height:30px;
+}
+.boxFirstHeader
+{
+	border:none;
+	background:#f78840 url('../images/dbf_header_bg.gif') top left repeat-x; 
+	color:#FFF;
+	height:23px;
+	margin:0 3px;
+	text-transform:uppercase;
+}
+.dbTitle
+{
+}
+.boxContent, .boxBottomContent
+{
+	border-left:1px solid #f78840;
+	border-right:1px solid #f78840;
+	background:#e3ffff;
+}
+.boxFooterLeft, .boxFooterRight, .boxFooter
+{
+	height:4px;
+	font-size:0px;
+}
+.boxFooterLeft
+{
+	background:url('../images/dbf_footer_left.gif') bottom left no-repeat;
+}
+.boxFooterRight
+{
+	background:url('../images/dbf_footer_right.gif') bottom right no-repeat;
+}
+.boxFooter
+{
+	background:#e3ffff url('../images/dbf_footer_bg.gif') bottom right repeat-x;
+	margin:0 4px;
+}
+div.design-by
+{
+	text-align:right;
+	font-size:9px;
+	margin-top: 5px;
+}
+div.design-by a, div.design-by a:link, div.design-by a:visited, div.design-by a:hover, div.design-by a:active
+{
+	padding-right:10px;
+}
+/* * * * End DesignBox * * * */
+
+/* * * * DesignBox for Ora forum * * * */
+
+#orca_main .disignBoxFirst .boxFirstHeader
+{
+	margin:0;
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius:5px;
+	border-top-left-radius:5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius:5px;
+	border-top-right-radius:5px;
+	border-left:1px solid #f78840;
+	border-right:1px solid #f78840;
+}
+#orca_main .disignBoxFirst .boxContent
+{
+	border-bottom:1px solid #f78840;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius:5px;
+	border-bottom-left-radius:5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+#orca_main .disignBoxFirst .boxFooterLeft
+{
+	display:none;
+}
+/* * * * End DesignBox for Ora forum  * * * */
+
+.dbTopMenu div.active 
+{
+	background:none;
+}
+.dbTopMenu .active span
+{
+	background:none;
+}
+.dbTopMenu div a, .dbTopMenu div a:link, .dbTopMenu div a:hover, .dbTopMenu div a:active, .dbTopMenu div a:visited 
+{
+	color: #FFF;
+}
+
+.dbTopMenu div a:link, .dbTopMenu div a:visited 
+{
+	text-decoration:underline;
+}
+.dbTopMenu div a:hover, .dbTopMenu div a:active
+{
+	text-decoration:none;
+}
+
+.TransBox .msgbox_content
+{
+	padding:5px;
+}
+div.thumbnail_image, div.thumbnail_image_couple, .sys_file_search_pic, .sys_album
+{
+	border:1px solid #4c6060;
+	background-color:#f0fdfd;
+}
+
+.msgbox_border
+{
+	border:1px solid #f5863d;
+	background:#FFF;
+	padding:5px;
+}
+.MsgBox .msgbox_text
+{
+	background:#fae3d5;
+	border:1px solid #f49f66;
+	color:#E05B2F;
+}
+
+div.paginate
+{
+	background-color:#FAE3D5;
+}
+
+div.dbTmLeft
+{
+	background-image:url('../images/dbTmLeft.gif');
+}
+div.dbTmRight
+{
+	background-image:url('../images/dbTmRight.gif');
+}
+
+div.pollAnswerBlock div.pollResultRow 
+{
+	background-image: url('../images/poll_res_fill.png');
+}
+div.disignBoxFirst div.boxContent div.poll_block div.poll_section div.pollAnswerBlock table td.poll
+{
+	background-color:#fff7f1;
+}
+
+div.disignBoxFirst div.boxContent div.poll_info div.owner_info
+{
+	color:#89ACAC;
+}
+
+div.disignBoxFirst div.boxContent div.shoutbox_wrapper
+{
+	background-color:#f0fdfd;
+	border:1px solid #b1dee0;
+}
+
+div.disignBoxFirst div.boxContent .blog_unit .fr_small_gray_centered 
+{
+	color:#89ACAC;
+}
+div.disignBoxFirst div.boxContent div.message_block span
+{
+	color:#89ACAC;
+}
+.sys_file_search_when
+{
+	color:#89ACAC;
+}
+.dbBottomMenu
+{
+	background:#FAE3D5;
+}
+div.disignBoxFirst div.boxContent .ads_Pic
+{
+	border:1px solid #4c6060;
+}
+
+div.disignBoxFirst div.boxContent div.wall-divider, div.disignBoxFirst div.boxContent div.wall-divider-today 
+{
+	background-color:#99d8b6;
+}
+
+div.disignBoxFirst div.boxContent div.wall-divider-nerrow
+{
+	background-color:#99d8b6;
+}
+
